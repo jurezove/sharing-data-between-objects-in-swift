@@ -13,6 +13,8 @@
 		2538BF4A1AE7E4400036E217 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2538BF491AE7E4400036E217 /* Images.xcassets */; };
 		2538BF4D1AE7E4400036E217 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2538BF4B1AE7E4400036E217 /* LaunchScreen.xib */; };
 		2538BF591AE7E4400036E217 /* Sharing_is_CaringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2538BF581AE7E4400036E217 /* Sharing_is_CaringTests.swift */; };
+		2538BF651AE7E4C50036E217 /* SharingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2538BF641AE7E4C50036E217 /* SharingManager.swift */; };
+		2538BF671AE7E6A10036E217 /* EditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2538BF661AE7E6A10036E217 /* EditingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		2538BF521AE7E4400036E217 /* Sharing is CaringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sharing is CaringTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2538BF571AE7E4400036E217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2538BF581AE7E4400036E217 /* Sharing_is_CaringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sharing_is_CaringTests.swift; sourceTree = "<group>"; };
+		2538BF641AE7E4C50036E217 /* SharingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharingManager.swift; sourceTree = "<group>"; };
+		2538BF661AE7E6A10036E217 /* EditingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				2538BF421AE7E4400036E217 /* AppDelegate.swift */,
 				2538BF441AE7E4400036E217 /* ViewController.swift */,
+				2538BF661AE7E6A10036E217 /* EditingViewController.swift */,
+				2538BF641AE7E4C50036E217 /* SharingManager.swift */,
 				2538BF461AE7E4400036E217 /* Main.storyboard */,
 				2538BF491AE7E4400036E217 /* Images.xcassets */,
 				2538BF4B1AE7E4400036E217 /* LaunchScreen.xib */,
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2538BF451AE7E4400036E217 /* ViewController.swift in Sources */,
+				2538BF671AE7E6A10036E217 /* EditingViewController.swift in Sources */,
 				2538BF431AE7E4400036E217 /* AppDelegate.swift in Sources */,
+				2538BF651AE7E4C50036E217 /* SharingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
